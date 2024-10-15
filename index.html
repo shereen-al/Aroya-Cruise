@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أرويا كروز</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="hero position-relative col-12" onclick="play()">
+        <video class="play" autoplay>
+            <source src="img/saudi-cruse.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <div class="hero-logo text-center position-absolute">
+                <div class="logo"><img class="img-fluid" src="img/logo.png" alt=""></div>
+                <!--<div class="logo-head text-uppercase">cruises</div> -->
+            </div>
+            <div id="hero-text" class="hero-text position-absolute text-center">
+                <div id="playBtn"  class="ply-btn d-flex align-items-center justify-content-center">
+                    <img class="img-fluid fa-play" src="img/playBtn.svg" alt="playBtn">
+                    <div class="fa-pause"><i class="fa-solid fa-pause"></i></i></div>
+                </div>
+                <div id="hero-heading" class="section-heading text-uppercase">أمواجنا <br>عربية</div>
+            </div>
+            <div class="hero-bottom position-absolute">
+                <a id="hero-bottom" href="#">أكتشف أكثر</a>
+                <div class="hero-line"></div>
+            </div>
+        </div>
+        <div class="hero-seperator-line position-absolute"></div>
+    </section>
+    <section class="about position-relative col-12">
+        <div class="container">
+            <div class="about-text">
+            <div id="about-heading" class="section-heading text-uppercase position-relative">أرويا كروز
+                <div class="section-wave-img position-absolute"><img class="img-fluid" src="img/Group132.svg" alt="wave"></div>
+            </div>
+            <p id="about-parag">أرويا كروزو,أول خطوط للرحلات البحريةتنطلق من المملكة العربية السعودية,تبحر قريبا بتجارب لا مثيل لها مستوحاة من سحر البحرالأحمر 
+                ,متأصلة بحفاوة كرم الضيافة العربية الخالدة في رحلة استكشافية 
+                فريدة تلهم من خلالهامن ينضم الينا</p>
+        </div></div>
+    </section>
+    <div class="seprator">
+        <img class="img-fluid" src="img/seprator.jpeg" alt="">
+    </div>
+    <section class="contact position-relative col-12">
+        <div class="container">
+         <div class="contact-text">
+            <div id="contact-heading" class="section-heading text-uppercase position-relative">كن أول <br><span class="light">من يعرف</span>
+                <div class="section-wave-img position-absolute"><img class="img-fluid" src="img/Group132.svg" alt="wave"></div>
+            </div>
+            <p id="contact-parag">انضموا الينا لتصل لكم أخر المستجدات المتعلقة بأوريا كروز.</p>
+         </div>
+        <form action="">
+            <div class="row align-items-center mb-5">
+                <div id="full-name" class="label col-lg-2">الاسم الكامل</div>
+                <input name = 'username' class="bg-transparent col-lg-10" type="text">
+            </div>
+            <div class="row align-items-center mb-5">
+                <div id="mail" class="label col-lg-2">البريد الالكتروني</div>
+                <input type="email" name = 'email' class="col-lg-10 bg-transparent">
+            </div>
+            <div class="row align-items-center mb-5">
+                <div id="contact-number" class="label col-lg-2">رقم التواصل</div>
+                <input type="text" name = 'number' class="col-lg-10 bg-transparent">
+            </div>
+            <div class="row my-4">
+                <div class="col-12">
+                    <div class="form-check d-flex align-items-center mt-2">
+                      <input class="check-input" type="checkbox" value="" id="invalidCheck" required>
+                      <label id="agree" class="form-check-label" for="invalidCheck">
+                        أوافق علي استقبال أخر الأخبار والمستجدات
+                      </label>
+                      <div id="must" class="invalid-feedback">
+                        يجب أن توافق قبل الارسال
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 d-flex flex-row-reverse">
+                    <button id="submit" class="btn" type="submit">أرسل</button>
+                  </div>
+            </div>
+        </form>
+        </div>
+    </section>
+    <section class="col-12 footer position-relative d-flex flex-column align-items-center justify-content-center">
+        <div class="logo"><img class="img-fluid" src="img/logo-footer.png" alt=""></div>
+        <div class="socials d-flex justify-content-center align-items-center px-2">
+            <div class="social-box">
+                <img class="img-fluid" src="img/Group151.svg" alt="">
+            </div> 
+            <div class="social-box">
+                <img class="img-fluid" src="img/Group158.svg" alt="">
+            </div> 
+            <div class="social-box">
+                <img class="img-fluid" src="img/Group165.svg" alt="">
+            </div> 
+            <div class="social-box">
+                <img class="img-fluid" src="img/Group172.svg" alt="">
+            </div> 
+            <div class="social-box">
+                <img class="img-fluid" src="img/Group179.svg" alt="">
+            </div> 
+            <div class="social-box">
+                <img class="img-fluid" src="img/Group186.svg" alt="">
+            </div>
+        </div>
+        <div id="copywrite" class="copywrite text-uppercase">
+            أرويا كروز | &copy;2023
+        </div>
+    </section>
+    <div class="lang-btns position-absolute text-dark">
+        <a id="arabic">Arabic</a>
+        <a id="english">English</a>
+    </div>
+   <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
